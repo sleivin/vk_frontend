@@ -1,0 +1,92 @@
+body{
+	overflow-y: scroll;
+}
+#header_wrapper{
+	position: fixed;
+	height: 42px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	direction:ltr;
+	background-color: #507299;
+}
+
+#header{
+ position: relative;
+ width: 960px;
+ height: 42px;
+ margin: 0 auto;
+ font-size: 12.5px;
+ padding: 0 15px;
+}
+
+#main_icon_container{
+	width: 165px;
+	height: 42px;
+	float: left;
+}
+
+#main_icon{
+	background: url("../img/icon/head_icons.png") no-repeat;
+	background-position: 0 -98px;
+	width: 33px;
+	height: 19px; 
+	margin: 11px 10px 0 0;
+}
+
+#search{
+float: left	;
+margin-right: 35px;
+}
+
+#search input{
+	border: 0;
+	box-sizing: border-box;
+	padding: 6px 6px 6px 19px;
+  margin: 7px 0;
+  height: 28px;
+  line-height: 16px;
+  width: 230px;
+  border-radius: 14px;
+  transition: background-color 0.05s, color 0.05s;
+  background: #305075 url(../img/icon/search_lins.png) no-repeat;
+  padding-left: 19px;
+  border-left: 8px solid transparent;
+  background-position: left 8px;
+  color: #d9e2ec;
+}
+
+.header-btn-wrapper{
+	height: 	42px;
+	width: 46px	;	
+	float: left	;	
+}
+
+#event-btn{
+	background-position: 	-5px -23px;
+}
+
+#player-btn{
+	background-position: 	-5px -53px;
+}
+
+.header-btn{
+	margin: 11px	14px;
+	background: url(../img/icon/head_icons.png);
+	height: 20px	;
+	width: 20px	;
+	float: left	;
+}
+
+.header-btn-wrapper:hover {
+	background-color: #486991;
+
+}
+
+#main_dropdown{
+
+}
+
+
+
